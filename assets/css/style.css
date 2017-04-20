@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Fjalla+One|Poppins');
+/*
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Catamaran', sans-serif
+*/
+
+#page-not{
+	background-image: url(../images/backgro.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(5, 5, 8, 0.65);
+
+}
+.page-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.page-text h2{
+	    font-size: 113px;
+       color: #ff4900;
+       font-family: 'Fjalla One', sans-serif;
+
+}
+.page-text p{
+	    font-size: 16px;
+        color: #969292;
+       font-family: 'Catamaran', sans-serif
+    
+}
+.page-text p span{
+	color: #ff3c3c;
+	font-size: 45px;
+	font-family: 'Poppins', sans-serif;
+}
+.page-text a{
+    padding: 10px 20px ;
+    font-size: 18px ;
+    border-radius: 0px;
+    font-family: 'Catamaran', sans-serif
+    
+}
+.btn-custom{
+	border: 1px solid black;
+	background: #ff4900;
+	color: white;
+	text-transform: uppercase;
+	margin-right: 15px;
+	transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #b1aeae !important;
+}
+.btn-custom:hover{
+	background: #e45b24;
+	color: white;
+
+}
+.btn-custom1:hover{
+	background: #097709;
+	
+}
+.btn-custom1{
+	border: 1px solid black;
+	background:#01a501;
+	color: white;
+	text-transform: uppercase;
+	transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+
+}
+
+.social {
+    position: absolute;
+    top: 86%;
+    color: white;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.79);
+}
+.social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social-icon ul li {
+
+}
+.social-icon ul li a {
+	
+}
+.social-icon ul li a i {
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.social-icon .face i{
+	background: #3B5998;
+}
+.social-icon .face i:hover , .social-icon .twit i:hover ,.social-icon .link i:hover,
+.social-icon .goog i:hover, .social-icon .inst i:hover, .social-icon .rrs i:hover{
+	background: #179F5D;
+}
+.social-icon .twit i{
+	background: #1DA1F2;
+}
+.social-icon .link i{
+	background:#007BB6;
+}
+.social-icon .goog i{
+	background:#DD5144;
+}
+.social-icon .inst i{
+	background:#C60065;
+}
+.social-icon .rrs i{
+	background:#F79937;
+}
